@@ -11,5 +11,5 @@
 # (DE) Overlay installieren
 
 1. [Tampermonkey](https://www.tampermonkey.net/) installieren
-2. Auf diesen (https://github.com/NixonMSilva/place-overlay-EUMap/blob/main/src/scripts/placeDE-overlay.user.js)[Link] klicken: Tampermonkey sollte das Skript erkennen.
+2. Auf diesen [Link](https://github.com/NixonMSilva/place-overlay-EUMap/blob/main/src/scripts/placeDE-overlay.user.js) klicken: Tampermonkey sollte das Skript erkennen.
 
