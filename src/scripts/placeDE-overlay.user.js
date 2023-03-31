@@ -13,6 +13,7 @@ let url = "https://github.com/NixonMSilva/place-overlay-EUMap/blob/main/src/reso
 //url = "https://i.imgur.com/0fRq2nu.png"
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
+		// This part will likely be altered once the new r/place comes live, since Reddit won't use mona-lisa-canvas again? (needs confirmation)
         document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
             (function () {
                 const i = document.createElement("img");
