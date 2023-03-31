@@ -1,15 +1,15 @@
 // ==UserScript==
-// @name         r/placeDE Template
+// @name         r/placeEU Template (fork from r/placeDE Template)
 // @namespace    http://tampermonkey.net/
-// @version      2
+// @version      2.1
 // @description  try to take over the canvas!
-// @author       mp1404
+// @author       mp1404 / NixonMSilva
 // @match        https://hot-potato.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
-// @updateURL    https://github.com/placeDE/place-overlay/raw/main/src/scripts/placeDE-overlay.user.js
-// @downloadURL  https://github.com/placeDE/place-overlay/raw/main/src/scripts/placeDE-overlay.user.js
+// @updateURL    https://github.com/NixonMSilva/place-overlay-EUMap/blob/main/src/scripts/placeDE-overlay.user.js
+// @downloadURL  https://github.com/NixonMSilva/place-overlay-EUMap/blob/main/src/scripts/placeDE-overlay.user.js
 // ==/UserScript==
-let url = "https://raw.githubusercontent.com/placeDE/pixel/main/overlay.png"
+let url = "https://github.com/NixonMSilva/place-overlay-EUMap/blob/main/src/resources/overlay.png"
 //url = "https://i.imgur.com/0fRq2nu.png"
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
